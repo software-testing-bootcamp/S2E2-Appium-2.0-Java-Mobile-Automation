@@ -1,1 +1,2 @@
-# -S2E2-Appium-2.0-Java-Mobile-Automation
+# Mobile Test Automation with Appium 2.0 and Java
+
