@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Classes Suite">
+    <test name = "Parallel Tests" parallel = "classes" thread-count = "2">
+        <parameter name="platform" value="android" />
+        <classes>
+            <class name = "tests.MobileApp" />
+        </classes>
+    </test>
+</suite>

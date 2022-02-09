@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Single Classes Suite">
+    <test name = "Tests" parallel = "none">
+        <parameter name="platform" value="safari" />
+        <groups>
+            <run>
+                <include name = "hook" />
+                <include name = "safari" />
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.MobileWeb" />
+        </classes>
+    </test>
+</suite>
