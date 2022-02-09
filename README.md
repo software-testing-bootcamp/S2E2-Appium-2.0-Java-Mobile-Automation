@@ -1,5 +1,9 @@
 # Mobile Test Automation with Appium 2.0 and Java
 
+In this video, we will do 2 examples with Appium 2.0:
+  - MobilWeb Test Automation on iPhone Safari (xcuitest). Example Website is youtube https://www.youtube.com/c/SoftwareTestingBootcamp
+  - Native Android app Test Automation on Android device (uiautomator2) Example App is https://play.google.com/store/apps/details?id=com.bilgikolik.app&hl=tr&gl=US
+
 ![image](https://user-images.githubusercontent.com/89974862/153133957-3933a9b3-38da-4784-90ca-918c6ee1ceab.png)
 
 **Youtube Webinar Video**
@@ -53,9 +57,34 @@ source ~/.bash_profile
 appium --use-plugins element-wait
 ```
 
+NOTE: Now you can say goodbye to your "wait.until" commands on your automation project.
+
 **Appium Device Farm Plugin Activation**
 ```
 source ~/.bash_profile
 appium server -ka 800 --use-plugins=element-wait,device-farm,appium-dashboard --plugin-device-farm-platform=Android
 ```
+
+NOTE: Please visit this link after activation to check your devices. http://localhost:4723/device-farm/
+
 ***
+
+**Resources**
+
+https://appium.io/
+
+https://github.com/appium
+
+https://github.com/appium/appium-inspector
+
+https://github.com/appium/appium-plugins
+
+https://github.com/AppiumTestDistribution/appium-wait-plugin
+
+https://github.com/appium/java-client/blob/master/docs/v7-to-v8-migration-guide.md
+
+https://javadoc.io/doc/io.appium/java-client/latest/deprecated-list.html
+
+https://mvnrepository.com/artifact/io.appium/java-client
+
+https://www.jetbrains.com/idea/download
